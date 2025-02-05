@@ -9,12 +9,12 @@ function ProfileOptimization() {
       icon: <Linkedin className="w-8 h-8 text-blue-600" />,
       url: "https://www.linkedin.com"
     },
-    {
-      title: "Naukri Profile Optimization",
-      description: "Optimize your Naukri profile for better visibility",
-      icon: <Briefcase className="w-8 h-8 text-blue-600" />,
-      url: "https://www.naukri.com"
-    }
+    // {
+    //   title: "Naukri Profile Optimization",
+    //   description: "Optimize your Naukri profile for better visibility",
+    //   icon: <Briefcase className="w-8 h-8 text-blue-600" />,
+    //   url: "https://www.naukri.com"
+    // }
   ];
 
   return (

@@ -119,7 +119,7 @@ function Home() {
         </h3>
         <div className="flex justify-center space-x-6">
           <a 
-            href="https://instagram.com" 
+            href="https://www.instagram.com/patron.you/" 
             target="_blank" 
             rel="noopener noreferrer"
             className="text-gray-400 hover:text-gray-500"
@@ -130,7 +130,7 @@ function Home() {
             </svg>
           </a>
           <a 
-            href="https://linkedin.com" 
+            href="https://www.linkedin.com/company/patronyou/" 
             target="_blank" 
             rel="noopener noreferrer"
             className="text-gray-400 hover:text-gray-500"
@@ -141,7 +141,7 @@ function Home() {
             </svg>
           </a>
           <a 
-            href="https://twitter.com" 
+            href="https://x.com/patron_you" 
             target="_blank" 
             rel="noopener noreferrer"
             className="text-gray-400 hover:text-gray-500"

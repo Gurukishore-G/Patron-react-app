@@ -10,9 +10,9 @@ export default function Resume() {
     // Handle LinkedIn integration
   };
 
-  const handleNaukreFetch = () => {
-    // Handle Naukri integration
-  };
+  // const handleNaukreFetch = () => {
+  //   // Handle Naukri integration
+  // };
 
   return (
     <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
@@ -27,13 +27,13 @@ export default function Resume() {
           <span className="text-lg font-medium">Upload Resume</span>
         </button>
 
-        <button
+        {/* <button
           onClick={() => {}}
           className="flex flex-col items-center justify-center p-8 bg-white rounded-lg shadow-md hover:shadow-lg transition-shadow"
         >
           <FileText className="w-12 h-12 text-green-600 mb-4" />
           <span className="text-lg font-medium">Paste Text</span>
-        </button>
+        </button> */}
 
         <button
           onClick={handleLinkedInFetch}
@@ -43,13 +43,13 @@ export default function Resume() {
           <span className="text-lg font-medium">Fetch from LinkedIn</span>
         </button>
 
-        <button
+        {/* <button
           onClick={handleNaukreFetch}
           className="flex flex-col items-center justify-center p-8 bg-white rounded-lg shadow-md hover:shadow-lg transition-shadow"
         >
           <Mail className="w-12 h-12 text-[#FF7555] mb-4" />
           <span className="text-lg font-medium">Fetch from Naukri</span>
-        </button>
+        </button> */}
 
         <button
           onClick={() => {}}

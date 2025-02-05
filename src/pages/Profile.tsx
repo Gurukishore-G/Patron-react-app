@@ -4,8 +4,8 @@ import { Download, LogOut, ToggleLeft, ToggleRight } from 'lucide-react';
 export default function Profile() {
   const connections = {
     linkedin: true,
-    naukri: false,
-    google: true
+    // naukri: false,
+    // google: true
   };
 
   const handleSignOut = () => {
@@ -52,7 +52,7 @@ export default function Profile() {
                   <ToggleLeft className="w-6 h-6 text-gray-400" />
                 )}
               </div>
-              <div className="flex items-center justify-between">
+              {/* <div className="flex items-center justify-between">
                 <span className="text-gray-700">Naukri</span>
                 {connections.naukri ? (
                   <ToggleRight className="w-6 h-6 text-blue-600" />
@@ -67,7 +67,7 @@ export default function Profile() {
                 ) : (
                   <ToggleLeft className="w-6 h-6 text-gray-400" />
                 )}
-              </div>
+              </div> */}
             </div>
           </div>
 

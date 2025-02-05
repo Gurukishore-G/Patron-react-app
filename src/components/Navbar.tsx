@@ -14,8 +14,8 @@ function Navbar() {
             <div className="hidden sm:ml-6 sm:flex sm:space-x-4">
               <Link to="/resume" className="nav-link">Resume</Link>
               <Link to="/referral-automation" className="nav-link">Referrals</Link>
-              <Link to="/tracker" className="nav-link">Tracker</Link>
-              <Link to="/analytics" className="nav-link">Analytics</Link>
+              {/* <Link to="/tracker" className="nav-link">Tracker</Link> */}
+              {/* <Link to="/analytics" className="nav-link">Analytics</Link> */}
               <Link to="/blog" className="nav-link">Blog</Link>
             </div>
           </div>
